@@ -1,23 +1,23 @@
 # IPL Analysis Dashboard (Power BI)
-# Step-by-Step Build Explanation
+## Step-by-Step Build Explanation
 
-# 1.Data Collection
+### 1.Data Collection
 
 Collected IPL match, team, player, and venue data from public sources.
 
-# 2.Data Cleaning & Transformation
+### 2.Data Cleaning & Transformation
 
 Used Power Query to remove nulls, fix data types, and standardize columns.
 
 Created separate tables for matches, teams, players, and venues.
 
-# 3.Data Modeling
+### 3.Data Modeling
 
 Built relationships between tables using match IDs and team/player keys.
 
 Ensured proper star schema for better performance.
 
-# 4.DAX Measures
+### 4.DAX Measures
 
 Created measures for:
 
@@ -31,7 +31,7 @@ Matches won by runs/wickets
 
 Player of the Match count
 
-# 5.Dashboard Design
+### 5.Dashboard Design
 
 Designed KPI cards for key metrics.
 
@@ -39,7 +39,7 @@ Added bar, pie, and donut charts for insights.
 
 Applied a dark IPL-themed layout with team branding.
 
-# 6.Interactivity
+### 6.Interactivity
 
 Added Bowler And Batsman slicer for filtering.
 
@@ -50,7 +50,7 @@ Implemented button-based navigation between pages.
 <img width="1241" height="678" alt="Home" src="https://github.com/user-attachments/assets/59ae1888-ba0d-453b-9073-ffcf26f6b8ee" />
 An interactive IPL Analysis Dashboard built using Microsoft Power BI to analyze team and player performance.
 
-# Features
+### Features
 
 Summary of IPL performance
 
@@ -62,7 +62,7 @@ One-click page navigation with buttons
 
 Interactive filters and visuals
 
-# Tools
+### Tools
 
 Power BI
 
@@ -70,17 +70,14 @@ DAX
 
 Power Query
 
-# Use Case
-
-Data visualization and sports analytics portfolio project.
 
 # Summary Page
 <img width="1231" height="685" alt="summary" src="https://github.com/user-attachments/assets/853b4346-3339-4cc2-bd8a-4023ca8165c5" />
 
-# IPL Summary Dashboard (Power BI)
+## IPL Summary Dashboard (Power BI)
    An interactive IPL Summary Dashboard built using Microsoft Power BI to visualize key tournament insights.
    
-# Highlights
+### Highlights
 
 Total Matches, Teams, Fours & Sixes
 
@@ -94,7 +91,7 @@ Toss decision & match result insights
 
 Venue-wise match distribution
 
-# Tools
+### Tools
 
 Power BI
 
@@ -107,11 +104,11 @@ Power Query
 # Bowler Stats Page
 <img width="1223" height="680" alt="bowler" src="https://github.com/user-attachments/assets/a19d657a-d879-47cf-b596-3305a31e29df" />
 
-# IPL Bowler Statistics Dashboard (Power BI)
+## IPL Bowler Statistics Dashboard (Power BI)
 
 An interactive Bowler Stats Dashboard built using Microsoft Power BI to analyze bowling performance across IPL teams and seasons.
 
-# Key Insights
+### Key Insights
 
 Total wickets, bowling average, strike rate & economy
 
@@ -125,7 +122,7 @@ Highest bowling average by player
 
 Interactive bowler selection
 
-# Tools
+### Tools
 
 Power BI
 
@@ -135,11 +132,11 @@ Power Query
 # Batsman Stats Page
 <img width="1212" height="678" alt="batsman" src="https://github.com/user-attachments/assets/a9cc4c7a-c086-43e7-a33e-2c7450783927" />
 
-# IPL Batsman Statistics Dashboard (Power BI)
+## IPL Batsman Statistics Dashboard (Power BI)
 
 An interactive Batsman Stats Dashboard built using Microsoft Power BI to analyze batting performance across IPL teams and players.
 
-# Key Insights
+### Key Insights
 
 Total runs, strike rate, 4s & 6s
 
@@ -153,7 +150,7 @@ Highest average by batsman
 
 Interactive batter selection
 
-# Tools
+### Tools
 
 Power BI
 
