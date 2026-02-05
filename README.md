@@ -1,6 +1,7 @@
 # ipl_analysis
 # Dashboard
 <img width="1809" height="747" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/5ab373c2-5432-41d4-87f9-be6d794c1587" />
+
 # 1.Data Collection
 n & Understanding
 •	Imported raw coffee shop sales data into Excel
