@@ -1,162 +1,38 @@
-# IPL Analysis Dashboard (Power BI)
-## Step-by-Step Build Explanation
-
-### 1.Data Collection
-
-Collected IPL match, team, player, and venue data from public sources.
-
-### 2.Data Cleaning & Transformation
-
-Used Power Query to remove nulls, fix data types, and standardize columns.
-
-Created separate tables for matches, teams, players, and venues.
-
-### 3.Data Modeling
-
-Built relationships between tables using match IDs and team/player keys.
-
-Ensured proper star schema for better performance.
-
-### 4.DAX Measures
-
-Created measures for:
-
-Total Matches
-
-Total Teams
-
-Total Fours & Sixes
-
-Matches won by runs/wickets
-
-Player of the Match count
-
-### 5.Dashboard Design
-
-Designed KPI cards for key metrics.
-
-Added bar, pie, and donut charts for insights.
-
-Applied a dark IPL-themed layout with team branding.
-
-### 6.Interactivity
-
-Added Bowler And Batsman slicer for filtering.
-
-Implemented button-based navigation between pages.
-
+### IPL Analysis Dashboard: Project Report
+## Tool: Microsoft Power BI | Repository: swami333/ipl_analysis
+# 1. Objective
+This project is an interactive Power BI dashboard that analyses Indian Premier League (IPL) team and player performance. It helps a viewer move from a high-level season overview to detailed bowler and batsman insights in a few clicks.
+# 2. Dashboard Structure
+A home page with a stadium theme and team logos acts as the navigation hub. It has three buttons: Summary, Bowler Stats and Batsmen Stats. Every inner page uses a dark blue theme, team logos in the header, and icon buttons (home, bat, ball) to jump between pages.
+# 3. Summary Page
+This page gives the season at a glance, with a Year slicer to filter the data.
+• Key figures: 1.32K fours, 508 sixes, 57 matches and 8 teams.
+• Toss decision: Teams chose to bat first in 35 matches and to field in 22.
+• Match results: 29 matches were won by wickets, 27 by runs, and 1 ended in a tie.
+• Matches by batting team: Deccan Chargers and Royal Challengers lead with 16 each, followed by Delhi Daredevils (15) and Chennai Super Kings and Kings XI Punjab (14 each).
+• Venues: Kingsmead hosted the most matches (15), then SuperSport Park (12) and New Wanderers (8).
+• Player of the Match: YK Pathan leads with 3 awards; many others have 2.
+# 4. Bowler Stats Page
+This page lets the user pick a bowler and view bowling performance.
+• Key figures: Bowling average 26.35, strike rate 20.15, economy 7.85.
+• Wickets by team: Mumbai Indians lead (1.59K), then Chennai Super Kings (1.48K) and Kolkata Knight Riders (1.46K). Deccan Chargers are lowest (0.45K).
+• Economy by bowler: Among the bowlers charted, SP Narine (6.6) and SL Malinga (6.8) are the most economical, while DJ Bravo and PP Chawla (7.9) are the most expensive.
+• Dismissal types: Caught accounts for 70.8%, bowled 19.42% and run out 9.78%.
+• Highest bowling average: AA Jhunjhunwala (129.00) tops the list, followed by SA Abbott, Mayank Dagar and DJ Mitchell (all above 97).
+• Detail table: Balls bowled and wickets taken for each bowler.
+# 5. Key Insights
+1. Batting first was the more popular toss decision (35 of 57 matches).
+2. Results were almost evenly split between chasing and defending wins (29 vs 27).
+3. Most wickets are caught dismissals, so fielding quality matters as much as bowling.
+4. A small group of venues hosted most of the matches.
+6. Conclusion
+The dashboard turns raw IPL match data into a clear, interactive view of team trends and bowler performance. It could be extended with batsman comparisons, season-wise trends and head-to-head team analysis.
 .
-# Home Page
-<img width="1241" height="678" alt="Home" src="https://github.com/user-attachments/assets/59ae1888-ba0d-453b-9073-ffcf26f6b8ee" />
-An interactive IPL Analysis Dashboard built using Microsoft Power BI to analyze team and player performance.
-
-### Features
-
-Summary of IPL performance
-
-Batsman statistics (runs, strike rate, average)
-
-Bowler statistics (wickets, economy, overs)
-
-One-click page navigation with buttons
-
-Interactive filters and visuals
-
-### Tools
-
-Power BI
-
-DAX
-
-Power Query
-
-
-# Summary Page
-<img width="1231" height="685" alt="summary" src="https://github.com/user-attachments/assets/853b4346-3339-4cc2-bd8a-4023ca8165c5" />
-
-## IPL Summary Dashboard (Power BI)
-   An interactive IPL Summary Dashboard built using Microsoft Power BI to visualize key tournament insights.
-   
-### Highlights
-
-Total Matches, Teams, Fours & Sixes
-
-Year-wise filtering
-
-Matches by batting team
-
-Player of the Match analysis
-
-Toss decision & match result insights
-
-Venue-wise match distribution
-
-### Tools
-
-Power BI
-
-DAX
-
-Power Query
 
 
 
-# Bowler Stats Page
-<img width="1223" height="680" alt="bowler" src="https://github.com/user-attachments/assets/a19d657a-d879-47cf-b596-3305a31e29df" />
 
-## IPL Bowler Statistics Dashboard (Power BI)
 
-An interactive Bowler Stats Dashboard built using Microsoft Power BI to analyze bowling performance across IPL teams and seasons.
-
-### Key Insights
-
-Total wickets, bowling average, strike rate & economy
-
-Team-wise wicket distribution
-
-Economy comparison by bowler
-
-Dismissal type analysis
-
-Highest bowling average by player
-
-Interactive bowler selection
-
-### Tools
-
-Power BI
-
-DAX
-
-Power Query
-# Batsman Stats Page
-<img width="1212" height="678" alt="batsman" src="https://github.com/user-attachments/assets/a9cc4c7a-c086-43e7-a33e-2c7450783927" />
-
-## IPL Batsman Statistics Dashboard (Power BI)
-
-An interactive Batsman Stats Dashboard built using Microsoft Power BI to analyze batting performance across IPL teams and players.
-
-### Key Insights
-
-Total runs, strike rate, 4s & 6s
-
-Team-wise runs comparison
-
-Strike rate analysis by batsman
-
-Dismissal type distribution
-
-Highest average by batsman
-
-Interactive batter selection
-
-### Tools
-
-Power BI
-
-DAX
-
-Power Query
 
 
 
